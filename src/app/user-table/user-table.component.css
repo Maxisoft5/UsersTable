@@ -1,0 +1,39 @@
+  table {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+  th { 
+    background:rgb(168, 165, 165);
+    padding: 5px; 
+    border: 1px solid black; 
+    text-align: center;
+  }
+
+  th:hover {
+    cursor: pointer;
+  }
+
+  td { 
+    padding: 5px; 
+    border: 1px solid black; 
+    text-align: center;
+  }
+
+  #colName, #colActive {
+    width: 140px;
+  }
+
+  #id {
+    width: 50px;
+  }
+
+  tr:nth-child(odd){
+    background-color: rgb(236, 228, 228);
+  }
+
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+  }

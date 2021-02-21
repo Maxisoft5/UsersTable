@@ -1,0 +1,18 @@
+<div class = "container">
+    <table>
+        <tr class = "table-headers">
+            <th id ="id" #id (click) ="this.OrderBy(id.id)">&#x25BC;Id</th>
+            <th id ="colName" #colName (click) ="this.OrderBy(colName.id)">&#x25BC;Name</th>
+            <th id ="colActive" #colActive (click) ="this.OrderBy(colActive.id)">&#x25BC;Active</th>
+        </tr>
+        <tr *ngFor="let user of service.totalUsers">
+            <td>{{user.id}}</td>
+            <td>{{user.name}}</td>
+            <td>
+                <input type="checkbox" value="user.isActive" name="active" [checked]="user.isActive" [(ngModel)] = "user.isActive"
+                 (change)="service.isChecked(user.isActive, user.id)">
+            </td>
+        </tr>
+    </table>
+    <user-count-component></user-count-component>
+</div>
