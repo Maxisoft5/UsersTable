@@ -1,0 +1,15 @@
+C:\Users\Moksim\source\repos\UsersTable\UsersTable.BLL\obj\Debug\net5.0\UsersTable.BLL.csprojAssemblyReference.cache
+C:\Users\Moksim\source\repos\UsersTable\UsersTable.BLL\obj\Debug\net5.0\UsersTable.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Moksim\source\repos\UsersTable\UsersTable.BLL\obj\Debug\net5.0\UsersTable.BLL.AssemblyInfoInputs.cache
+C:\Users\Moksim\source\repos\UsersTable\UsersTable.BLL\obj\Debug\net5.0\UsersTable.BLL.AssemblyInfo.cs
+C:\Users\Moksim\source\repos\UsersTable\UsersTable.BLL\obj\Debug\net5.0\UsersTable.BLL.csproj.CoreCompileInputs.cache
+C:\Users\Moksim\source\repos\UsersTable\UsersTable.BLL\bin\Debug\net5.0\UsersTable.BLL.deps.json
+C:\Users\Moksim\source\repos\UsersTable\UsersTable.BLL\bin\Debug\net5.0\UsersTable.BLL.dll
+C:\Users\Moksim\source\repos\UsersTable\UsersTable.BLL\bin\Debug\net5.0\ref\UsersTable.BLL.dll
+C:\Users\Moksim\source\repos\UsersTable\UsersTable.BLL\bin\Debug\net5.0\UsersTable.BLL.pdb
+C:\Users\Moksim\source\repos\UsersTable\UsersTable.BLL\bin\Debug\net5.0\UsersTable.DAL.dll
+C:\Users\Moksim\source\repos\UsersTable\UsersTable.BLL\bin\Debug\net5.0\UsersTable.DAL.pdb
+C:\Users\Moksim\source\repos\UsersTable\UsersTable.BLL\obj\Debug\net5.0\UsersTable.BLL.csproj.CopyComplete
+C:\Users\Moksim\source\repos\UsersTable\UsersTable.BLL\obj\Debug\net5.0\UsersTable.BLL.dll
+C:\Users\Moksim\source\repos\UsersTable\UsersTable.BLL\obj\Debug\net5.0\ref\UsersTable.BLL.dll
+C:\Users\Moksim\source\repos\UsersTable\UsersTable.BLL\obj\Debug\net5.0\UsersTable.BLL.pdb

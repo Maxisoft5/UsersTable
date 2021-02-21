@@ -1,0 +1,15 @@
+C:\Users\Moksim\source\repos\UsersTable\UsersTable.DAL\bin\Debug\net5.0\UsersTable.DAL.deps.json
+C:\Users\Moksim\source\repos\UsersTable\UsersTable.DAL\bin\Debug\net5.0\UsersTable.DAL.runtimeconfig.json
+C:\Users\Moksim\source\repos\UsersTable\UsersTable.DAL\bin\Debug\net5.0\UsersTable.DAL.runtimeconfig.dev.json
+C:\Users\Moksim\source\repos\UsersTable\UsersTable.DAL\bin\Debug\net5.0\UsersTable.DAL.dll
+C:\Users\Moksim\source\repos\UsersTable\UsersTable.DAL\bin\Debug\net5.0\ref\UsersTable.DAL.dll
+C:\Users\Moksim\source\repos\UsersTable\UsersTable.DAL\bin\Debug\net5.0\UsersTable.DAL.pdb
+C:\Users\Moksim\source\repos\UsersTable\UsersTable.DAL\obj\Debug\net5.0\UsersTable.DAL.csprojAssemblyReference.cache
+C:\Users\Moksim\source\repos\UsersTable\UsersTable.DAL\obj\Debug\net5.0\UsersTable.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Moksim\source\repos\UsersTable\UsersTable.DAL\obj\Debug\net5.0\UsersTable.DAL.AssemblyInfoInputs.cache
+C:\Users\Moksim\source\repos\UsersTable\UsersTable.DAL\obj\Debug\net5.0\UsersTable.DAL.AssemblyInfo.cs
+C:\Users\Moksim\source\repos\UsersTable\UsersTable.DAL\obj\Debug\net5.0\UsersTable.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Moksim\source\repos\UsersTable\UsersTable.DAL\obj\Debug\net5.0\UsersTable.DAL.dll
+C:\Users\Moksim\source\repos\UsersTable\UsersTable.DAL\obj\Debug\net5.0\ref\UsersTable.DAL.dll
+C:\Users\Moksim\source\repos\UsersTable\UsersTable.DAL\obj\Debug\net5.0\UsersTable.DAL.pdb
+C:\Users\Moksim\source\repos\UsersTable\UsersTable.DAL\obj\Debug\net5.0\UsersTable.DAL.genruntimeconfig.cache
