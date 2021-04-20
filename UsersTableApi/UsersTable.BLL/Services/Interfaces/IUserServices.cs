@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,7 +15,7 @@ namespace UsersTable.BLL.Services.Interfaces
         Task<User> CreateUserAsync(UserDTO user);
         Task<bool> DeleteAsync(int id);
         Task<bool> UpdateAsync(UserDTO model);
-        Task<IEnumerable<User>> GetActiveUsers();
+        Task<int> GetActiveUsersCount();
         Task<bool> ActivateUser(int id);
         Task<bool> DisActivateUser(int id);
         

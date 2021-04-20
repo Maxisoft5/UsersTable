@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Moksim\\source\\repos\\UsersTable\\UsersTable.BLL\\UsersTable.BLL.csproj": {}
+    "C:\\Users\\Moksim\\Documents\\GitHub\\UsersTable\\UsersTableApi\\UsersTable.BLL\\UsersTable.BLL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Moksim\\source\\repos\\UsersTable\\UsersTable.BLL\\UsersTable.BLL.csproj": {
+    "C:\\Users\\Moksim\\Documents\\GitHub\\UsersTable\\UsersTableApi\\UsersTable.BLL\\UsersTable.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Moksim\\source\\repos\\UsersTable\\UsersTable.BLL\\UsersTable.BLL.csproj",
+        "projectUniqueName": "C:\\Users\\Moksim\\Documents\\GitHub\\UsersTable\\UsersTableApi\\UsersTable.BLL\\UsersTable.BLL.csproj",
         "projectName": "UsersTable.BLL",
-        "projectPath": "C:\\Users\\Moksim\\source\\repos\\UsersTable\\UsersTable.BLL\\UsersTable.BLL.csproj",
+        "projectPath": "C:\\Users\\Moksim\\Documents\\GitHub\\UsersTable\\UsersTableApi\\UsersTable.BLL\\UsersTable.BLL.csproj",
         "packagesPath": "C:\\Users\\Moksim\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Moksim\\source\\repos\\UsersTable\\UsersTable.BLL\\obj\\",
+        "outputPath": "C:\\Users\\Moksim\\Documents\\GitHub\\UsersTable\\UsersTableApi\\UsersTable.BLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -34,8 +34,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Moksim\\source\\repos\\UsersTable\\UsersTable.DAL\\UsersTable.DAL.csproj": {
-                "projectPath": "C:\\Users\\Moksim\\source\\repos\\UsersTable\\UsersTable.DAL\\UsersTable.DAL.csproj"
+              "C:\\Users\\Moksim\\Documents\\GitHub\\UsersTable\\UsersTableApi\\UsersTable.DAL\\UsersTable.DAL.csproj": {
+                "projectPath": "C:\\Users\\Moksim\\Documents\\GitHub\\UsersTable\\UsersTableApi\\UsersTable.DAL\\UsersTable.DAL.csproj"
               }
             }
           }
@@ -68,14 +68,14 @@
         }
       }
     },
-    "C:\\Users\\Moksim\\source\\repos\\UsersTable\\UsersTable.DAL\\UsersTable.DAL.csproj": {
+    "C:\\Users\\Moksim\\Documents\\GitHub\\UsersTable\\UsersTableApi\\UsersTable.DAL\\UsersTable.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Moksim\\source\\repos\\UsersTable\\UsersTable.DAL\\UsersTable.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\Moksim\\Documents\\GitHub\\UsersTable\\UsersTableApi\\UsersTable.DAL\\UsersTable.DAL.csproj",
         "projectName": "UsersTable.DAL",
-        "projectPath": "C:\\Users\\Moksim\\source\\repos\\UsersTable\\UsersTable.DAL\\UsersTable.DAL.csproj",
+        "projectPath": "C:\\Users\\Moksim\\Documents\\GitHub\\UsersTable\\UsersTableApi\\UsersTable.DAL\\UsersTable.DAL.csproj",
         "packagesPath": "C:\\Users\\Moksim\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Moksim\\source\\repos\\UsersTable\\UsersTable.DAL\\obj\\",
+        "outputPath": "C:\\Users\\Moksim\\Documents\\GitHub\\UsersTable\\UsersTableApi\\UsersTable.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

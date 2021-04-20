@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,7 +11,7 @@ namespace UsersTable.DAL.UnitOfWork.Interfaces
 {
     public interface IUnitOfWork : IDisposable
     {
-        public UserRepository Users { get; }
+        public UserRepository Users { get; }  
         public void Save();
     }
 }

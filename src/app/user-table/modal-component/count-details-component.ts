@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { NgbModal, NgbActiveModal } from '@ng-bootstrap/ng-bootstrap';
 import { UserDetailsService } from 'src/app/shared/user-detail-services';
-import { User } from 'src/app/shared/user-model';
 
 @Component({
   selector: 'user-count-content',

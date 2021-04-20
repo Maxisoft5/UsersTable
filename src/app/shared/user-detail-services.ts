@@ -19,7 +19,7 @@ import { throwError } from 'rxjs';
       })
     };
     
-    constructor (private http: HttpClient) {
+    constructor(private http: HttpClient) {
       this.activeUsers = new Array<User>();
       this.totalUsers = new Array<User>();
     } 
@@ -38,7 +38,7 @@ import { throwError } from 'rxjs';
     setActiveUser(id:number){
       return this.http.put(`${this.baseUrl}/Activate/${id}`,this.httpOptions)
     }
-
+    
     setDisActiveUser(id:number){
       return this.http.put(`${this.baseUrl}/DisActivate/${id}`, this.httpOptions)
     }

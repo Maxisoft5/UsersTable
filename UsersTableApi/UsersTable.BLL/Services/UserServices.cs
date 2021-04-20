@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -17,7 +17,7 @@ namespace UsersTable.BLL.Services
         {
             _dataBase = dataBase;
         }
-
+        
         public Task<IEnumerable<User>> GetUsers()
         {
             return _dataBase.Users.GetAllAsync();
@@ -42,9 +42,9 @@ namespace UsersTable.BLL.Services
             return await _dataBase.Users.UpdateAsync(user);
         }
 
-        public Task<IEnumerable<User>> GetActiveUsers()
+        public Task<int> GetActiveUsersCount()
         {
-            return _dataBase.Users.GetActiveUsers();
+            return _dataBase.Users.GetActiveUsersCount();
         }
 
         public Task<bool> ActivateUser(int id)

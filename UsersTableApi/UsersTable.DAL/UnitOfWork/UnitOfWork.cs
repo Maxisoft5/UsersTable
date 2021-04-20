@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -27,7 +27,7 @@ namespace UsersTable.DAL.UnitOfWork
         {
             get { return _userRepository = _userRepository ?? new UserRepository(_context); }
         }
-
+        
         public virtual void Dispose(bool disposing)
         {
             if (!this._disposed)

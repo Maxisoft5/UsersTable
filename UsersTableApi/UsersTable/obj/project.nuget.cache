@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oikdnyEwdeGlRdzASNrINMpMbptl1pDrka22meyu5Dcrs0LVqd8IficlCoA6KcQgaLnj1pEvRiy9eP7nFAvFQw==",
+  "dgSpecHash": "m7LKbFRIPiUOBIEDXy1eKeZ/DXk/C/iUz+aFKlp7fyeKmcIcVykbfIsMDshaau08X87XI4lT74DdhTR6R3amow==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Moksim\\source\\repos\\UsersTable\\UsersTable\\UsersTable.csproj",
+  "projectFilePath": "C:\\Users\\Moksim\\Documents\\GitHub\\UsersTable\\UsersTableApi\\UsersTable\\UsersTable.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Moksim\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Moksim\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

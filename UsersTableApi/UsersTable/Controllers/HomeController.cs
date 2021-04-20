@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -7,6 +7,8 @@ using UsersTable.BLL.ModelsDTO;
 using UsersTable.BLL.Services;
 using UsersTable.BLL.Services.Interfaces;
 using UsersTable.DAL.Models;
+using UsersTable.DAL.Repositoreis.Interfaces;
+using UsersTable.DAL.UnitOfWork.Interfaces;
 
 namespace UsersTable.Controllers
 {
@@ -103,14 +105,14 @@ namespace UsersTable.Controllers
         [HttpGet("ActiveUsers")]
         public async Task<IActionResult> GetActiveUsersCountAsync()
         {
-            var users = await _userServices.GetActiveUsers();
-            if (users.Count() == 0)
+            var users = await _userServices.GetActiveUsersCount();
+            if (users == 0)
             {
                 return NotFound(users);
             }
             else
             {
-                return Ok(users.Count());
+                return Ok(users);
             }
         }
 
@@ -151,7 +153,6 @@ namespace UsersTable.Controllers
                 return Ok(result);
             }
         }
-
 
     }
 }

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +8,7 @@ using UsersTable.DAL.Models;
 using UsersTable.DAL.Repositoreis.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using UsersTable.DAL.LinqExtensions;
+using Path = System.IO;
 
 namespace UsersTable.DAL.Repositoreis
 {
@@ -18,7 +19,7 @@ namespace UsersTable.DAL.Repositoreis
         {
             _usersContext = context;
         }
-
+        
         /// <summary>
         /// Create a new user.
         /// </summary>
@@ -38,12 +39,12 @@ namespace UsersTable.DAL.Repositoreis
         /// <returns></returns>
         public async Task<bool> DeleteAsync(int id)
         {
-            var item = GetAsync(id);
+            var item = await GetAsync(id);
             if (item == null)
             {
                 return false;
             }
-            _usersContext.Users.Remove(await GetAsync(id));
+            _usersContext.Users.Remove(item);
             await _usersContext.SaveChangesAsync();
             return true;
         }
@@ -53,9 +54,9 @@ namespace UsersTable.DAL.Repositoreis
         /// Get all active users.
         /// </summary>
         /// <returns></returns>
-        public async Task<IEnumerable<User>> GetActiveUsers()
+        public async Task<int> GetActiveUsersCount()
         {
-            return await _usersContext.Users.IsActive().ToListAsync();
+            return await _usersContext.Users.IsActive().CountAsync();
         }
 
         /// <summary>

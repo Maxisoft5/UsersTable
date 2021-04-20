@@ -17,20 +17,9 @@ export class UserTableComponent implements OnInit {
   }
 
   OrderBy(value:string){
-    switch(value){
-      case "id": {
-          this.service.totalUsers.sort((a,b) => (a.id > b.id) ? 1 : -1);
-          break;
-      }
-      case "colName": {
-          this.service.totalUsers.sort((a,b) => (a.name > b.name) ? 1 : -1 );
-          break;
-      }
-      case "colActive": {
-          this.service.totalUsers.sort((a,b) => (a.isActive, b.isActive) ? 1 : -1);
-          break;
-      }
-    }
+
+    this.service.totalUsers.sort((a,b) => (a[value] > b[value] ? 1 : -1));
+
   }
 
 }

@@ -5804,11 +5804,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Moksim\\source\\repos\\UsersTable\\UsersTable.DAL\\UsersTable.DAL.csproj",
+      "projectUniqueName": "C:\\Users\\Moksim\\Documents\\GitHub\\UsersTable\\UsersTableApi\\UsersTable.DAL\\UsersTable.DAL.csproj",
       "projectName": "UsersTable.DAL",
-      "projectPath": "C:\\Users\\Moksim\\source\\repos\\UsersTable\\UsersTable.DAL\\UsersTable.DAL.csproj",
+      "projectPath": "C:\\Users\\Moksim\\Documents\\GitHub\\UsersTable\\UsersTableApi\\UsersTable.DAL\\UsersTable.DAL.csproj",
       "packagesPath": "C:\\Users\\Moksim\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Moksim\\source\\repos\\UsersTable\\UsersTable.DAL\\obj\\",
+      "outputPath": "C:\\Users\\Moksim\\Documents\\GitHub\\UsersTable\\UsersTableApi\\UsersTable.DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
